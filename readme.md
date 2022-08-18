@@ -1,4 +1,4 @@
-# Earth Info FullStack Project
+# Earth Info Full Stack Project
 
 ## Project Overview
 
