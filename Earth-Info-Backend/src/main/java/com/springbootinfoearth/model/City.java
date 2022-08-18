@@ -1,5 +1,7 @@
 package com.springbootinfoearth.model;
 
+import io.swagger.annotations.ApiModel;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
