@@ -1,5 +1,7 @@
 # Earth Info Backend
 
+API documentation: http://localhost:8085/swagger-ui.html#/application-controller
+
 ## Restoring Database
 
 This project uses PostgreSQL. This projcets data comes from 3 tables: country, state and city. You can use the csv files to create your own database or restore the prepared database:
