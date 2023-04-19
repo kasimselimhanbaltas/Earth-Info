@@ -1,0 +1,16 @@
+version: '2.6.1'
+services:
+  earth-info-db:
+    image: selimhanbaltas/mypostgresdatabase
+    ports:
+      - 5430:5432
+    environment:
+      - POSTGRES_PASSWORD=password
+  earth-info-be:
+    image: selimhanbaltas/mybackend
+    ports:
+      - 8085:8085
+  earth-info-fe:
+    image: selimhanbaltas/myfrontend
+    ports:
+      - 8080:8080
