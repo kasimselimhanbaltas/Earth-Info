@@ -10,3 +10,8 @@ https://earthinfo.herokuapp.com/
 
 Open the backend folder with your Java ide, and open the frontend folder with your vuejs ide. I created this project with IntelliJ IDEA and VS Code.
 The backend uses the port 8085 and frontend uses the port 8080.
+
+## Docker-compose
+For quick deploy in local, you can use my docker images with docker-compose file. 
+
+    docker-compose up --detach
