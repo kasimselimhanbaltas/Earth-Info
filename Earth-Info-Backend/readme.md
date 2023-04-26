@@ -8,4 +8,10 @@ You can do it with query but there is a practical way in pgAdmin 4, you can simp
 
 Restore file path: ../Earth-Info-Backend/RestoreDB/Country-State-City-DBbackup
 
+## Docker Compose
+Contains only back-end and database images. Inside the Earth-Info-Backend folder:
+
+    docker-compose up -d
+
+### API Documentation
 Swagger API documentation(works while running): http://localhost:8085/swagger-ui.html#/application-controller

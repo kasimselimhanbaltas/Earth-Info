@@ -30,9 +30,9 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
         return new ApiInfoBuilder()
                 .title("Earth Info API Documentation")
                 .version("1.0.0")
-                .license("Apache License Version 2.0")
+                .license("MIT License")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
-                .contact(new Contact("Selimhan Baltaş", "https://github.com/vehymy", "selimhanbaltas@gmail.com"))
+                .contact(new Contact("Selimhan Baltaş", "https://github.com/kasimselimhanbaltas", "selimhanbaltas@gmail.com"))
                 .build();
     }
     @Override
